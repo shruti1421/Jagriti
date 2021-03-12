@@ -1,0 +1,14 @@
+<% for(var i = 0; i < users.length; i++) { %>
+<div class="wrapper">
+    <div class="clash-card barbarian">
+<tr>
+<td>
+    <td><%= users[i].caseNumber %></td>
+    <div class="clash-card__unit-name"></div><td></td><%= users[i].name %></td></div>
+    <div class="clash-card__level clash-card__level--barbarian"></div><td><%= users[i].Profession %></td></div>
+    <div class="clash-card__unit-description"></div><td><%= users[i].Story %></td></div>
+</td>
+</tr>
+</div> <!-- end clash-card barbarian-->
+</div>
+<% } %>
