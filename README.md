@@ -1,5 +1,4 @@
 # SheHacks_Team-030
-# SheHacks_Team-030
 
 ## Jagriti | <i>We believe every woman "can"</i>
 
