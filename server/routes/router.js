@@ -9,6 +9,13 @@ route.get('/', services.homeRoutes);
 route.get('/view', services.viewCase);
 route.get('/add', services.addCase);
 route.get('/contact', services.contactUs);
+route.get('/signup',services.signUp);
+route.get('/success',services.Success);
+route.get('/failure',services.Failure);
+route.get('/hackathon',services.hackathon);
+route.get('/scholarship',services.scholarship);
+route.get('/stats',services.stats);
+route.get('/donate',services.donate);
 
 
 

@@ -22,3 +22,30 @@ res.render('pages/addCase');
 exports.contactUs=(req,res)=>{
 res.render('pages/contactUs');
 }
+
+exports.signUp=(req,res)=>{
+	res.render('pages/signup');
+}
+
+exports.Success=(req,res)=>{
+	res.render('pages/success');
+}
+exports.Failure=(req,res)=>{
+	res.render('pages/failure');
+}
+
+exports.hackathon=(req,res)=>{
+	res.render('pages/Hackathons');
+}
+
+exports.scholarship=(req,res)=>{
+	res.render('pages/scholarship');
+}
+
+exports.stats=(req,res)=>{
+	res.render('pages/statistics');
+}
+
+exports.donate=(req,res)=>{
+	res.render('pages/donate');
+}
