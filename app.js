@@ -46,7 +46,7 @@ const data={
 };
 const jsonData=JSON.stringify(data);
 const key=process.env.API_KEY;
-const url="https://us1.api.mailchimp.com/3.0/lists/"+key;
+const url="https://us7.api.mailchimp.com/3.0/lists/"+key;
 const list=process.env.LIST_KEY;
 const options={
 	method: "POST",
