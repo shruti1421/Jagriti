@@ -209,7 +209,7 @@ padding-right: 5%;
 }
 #testimonials{
   text-align: center;
-  background-image: url("testimg.png");
+  background-image: url("./public/images/testimg.png");
   color: #fff;
   height: 100%;
   background-position: center;
@@ -218,7 +218,7 @@ padding-right: 5%;
 }
 #cta{
   text-align: center;
-  background-image: url("fail.png");
+  background-image: url(".public/images/fail.png");
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -226,7 +226,7 @@ padding-right: 5%;
 }
 #cta1{
   text-align: center;
-  background-image: url("succc.png");
+  background-image: url("./images/succc.png");
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;

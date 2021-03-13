@@ -45,12 +45,12 @@ const data={
 	]
 };
 const jsonData=JSON.stringify(data);
-//const key=process.env.API_KEY;
-const url="https://us1.api.mailchimp.com/3.0/lists/5675b09891";
-//const list=process.env.LIST_KEY;
+const key=process.env.API_KEY;
+const url="https://us1.api.mailchimp.com/3.0/lists/"+key;
+const list=process.env.LIST_KEY;
 const options={
 	method: "POST",
-	auth: "adhi1:bb441e722a332bbc9495785d78f67df9-us1"
+	auth: "adhi1:"+list
 }
 
 const request=https.request(url,options,function(response){
