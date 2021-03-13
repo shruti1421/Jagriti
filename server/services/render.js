@@ -22,3 +22,18 @@ res.render('pages/addCase');
 exports.contactUs=(req,res)=>{
 res.render('pages/contactUs');
 }
+
+exports.signUp=(req,res)=>{
+	res.render('pages/signup');
+}
+
+exports.Success=(req,res)=>{
+	res.render('pages/success');
+}
+exports.Failure=(req,res)=>{
+	res.render('pages/failure');
+}
+
+exports.hackathon=(req,res)=>{
+	res.render('pages/Hackathons');
+}
