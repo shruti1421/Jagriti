@@ -209,7 +209,7 @@ padding-right: 5%;
 }
 #testimonials{
   text-align: center;
-  background-image: url("testimg.png");
+  background-image: url("../images/testimg.png");
   color: #fff;
   height: 100%;
   background-position: center;
@@ -218,7 +218,7 @@ padding-right: 5%;
 }
 #cta{
   text-align: center;
-  background-image: url("octa.png");
+  background-image: url("../images/octa.png");
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -243,7 +243,7 @@ padding-right: 5%;
   padding-left: 450px;
 }
 #pricing{
-  background-image: url("plant.png");
+  background-image: url("../images/plant.png");
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
